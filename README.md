@@ -4,7 +4,7 @@
 Icinga is Nagios forked monitoring tool. This repository contains script written in Powershell for monitoring processes which consuming the most memory
 
 # Table of contents
-* [check_top_processes.ps1](#check_top_processesps1)
+* [check_top_processes](#check_top_processes)
     + [Synopsis](#synopsis)
     + [Description](#description)
     + [Example](#example)
@@ -13,19 +13,22 @@ Icinga is Nagios forked monitoring tool. This repository contains script written
     + [Service](#service)
 
 ---
-# check_top_processes.ps1 
+# check_top_processes
 
 ### Synopsis
    *check_top_processes.ps1* and *check_top_processes.sh* - If you are wondering what is taking up so much memory on your server, this script is made perfectly for you!
     **Just download and never be surprised again!**
 ### Description
-    Using this script you are able to monitor processes which consume the most memory. This repo contains scripts written in powershell for Windows and in bash for Linux.
-    For better readability, the result of the script is a table containing data about the processes.
+   Using this script you are able to monitor processes which consume the most memory. This repo contains scripts written in powershell for Windows and in bash for Linux.
+   For better readability, the result of the script is a table containing data about the processes.
     
-    This script was written just in order to inform user of server status. It always exits with OK status. If any process makes trouble please use [check_service_by_name] script.
+   This script was written just in order to inform user of server status. It always exits with OK status. If any process makes trouble please use [check_service_by_name] script.
 ### Example
 ```powershell
-   check_top_processes.ps1  -n 3
+   check_top_processes.ps1 -n 3
+```
+```bash
+   bash check_top_processes.sh -n 3
 ```
 
 
