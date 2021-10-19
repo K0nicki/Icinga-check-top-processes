@@ -180,7 +180,7 @@ assign where host.vars.os == "Windows"
 ```
 
   ## Visualization
-  <img  src="https://github.com/K0nicki/Icinga-check-top-processes/tree/master/topProcessExampleImg.png"  width="200"/>
+  <img  src="https://github.com/K0nicki/Icinga-check-top-processes/blob/master/img/topProcessExampleImg.png"  width="1000"/>
 
 ---
 
